@@ -49,7 +49,7 @@ public class SmartWatch : IAudioPrinter
         if (AudioVolume > 10 && SamplingFrequency >= 8)
         {
             // Watch TTS logic
-            Console.WriteLine($"(SmartWatch) Message {message} was played on smartwatch.");
+            Console.WriteLine($"(SmartWatch) Message \"{message}\" was played on smartwatch.");
         }
         else
         {

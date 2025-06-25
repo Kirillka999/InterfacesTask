@@ -14,7 +14,7 @@ public class SmartTV : ISystemLogPrinter
     public void PrintMessage(string message)
     {
         AddLogEntry(message);
-        Console.WriteLine($"(SmartTV) Message {message} was added to log");
+        Console.WriteLine($"(SmartTV) Message \"{message}\" was added to log");
     }
 
     public string GetSystemLog()

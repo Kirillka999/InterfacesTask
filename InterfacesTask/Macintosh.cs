@@ -49,7 +49,7 @@ public class Macintosh : IScreenPrinter
         if (ScreenSize >= 0.5 && PPI >= 100)
         {
             // Print to Macintosh screen logic
-            Console.WriteLine($"(Mac) Message {message} appeared on Macintosh.");
+            Console.WriteLine($"(Mac) Message \"{message}\" appeared on Macintosh.");
         }
         else
         {

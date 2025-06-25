@@ -44,13 +44,13 @@ public class Smartphone : IToFilePathPrinter
     {
         FileName = "PrintFile";
         FilePath = "/home/kirill/";
-        _fileFormat = FileFormats.Txt;
+        _fileFormat = FileFormats.txt;
     }
     
     public void PrintMessage(string message)
     {
         //Print message to file logic
-        Console.WriteLine($"(Smartphone) Message {message} was written to {FilePath}{FileName}{_fileFormat.ToString()}");
+        Console.WriteLine($"(Smartphone) Message \"{message}\" was written to {FilePath}{FileName}.{_fileFormat.ToString()}");
     }
 
     public void SetFilePath(string patch)

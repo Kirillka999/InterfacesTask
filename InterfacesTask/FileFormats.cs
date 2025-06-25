@@ -2,7 +2,7 @@ namespace InterfacesTask;
 
 public enum FileFormats
 {
-    Txt,
-    Csv,
-    Log
+    txt,
+    csv,
+    log
 }
